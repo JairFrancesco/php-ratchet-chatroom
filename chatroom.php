@@ -115,7 +115,7 @@
 </body>
 <script type="text/javascript">
 	$(document).ready(function(){
-		var conn = new WebSocket('ws://psicoune.org:8081');
+		var conn = new WebSocket('wss://psicoune.com/wss2/');
 		conn.onopen = function(e) {
 		    console.log("Connection established!");
 		};
